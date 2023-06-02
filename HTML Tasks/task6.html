@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <head>
+        <title>HTML5 Task 6 - Making a Form</title>
+    </head>
+
+    <body>
+        <form action="#">
+            <!--For first name-->
+            <label for="firstname"> First Name: </label>
+            <input type="text" id="firstname"> <br> <br>
+
+            <!--For last name-->
+            <label for="lastname"> Last Name: </label>
+            <input type="text" id="lastname"> <br> <br>
+
+            <!--For Email Address-->
+            <label for="email"> Email: </label>
+            <input type="email" id="email"> <br> <br>
+
+            <!--For choosing the Gender-->
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female <br> <br>
+            
+            <!--For Age-->
+            <label for="age"> Age: </label>
+            <input type="number" id="age"> <br> <br>
+            
+            <!--For Mobile Number--> 
+            <label for="mnumber"> Mobile Number: </label>
+            <input type="number" id="mnumber"> <br> <br>
+            
+            <!--Address-->
+            <label for="address"> Address: </label>
+            <textarea id="address" rows="5" cols="5"></textarea> <br> <br>
+            
+            <!--Write down the State you live in-->
+            <label for="state"> Select your State: </label>
+            <input type="text" id="state"> <br> <br> 
+
+            <!--Choose your country-->
+            <label for="country"> Country: </label>
+            <select id="country">
+                <option value="none"> Choose your Country</option>
+                <option value="india">India</option>
+                <option value="italy">Italy</option>
+                <option value="japan">Japan</option>
+                <option value="russia">Russia</option>
+            </select> <br> <br>
+
+            <!--Choose the language you speak-->
+            <label for="language"> Language: </label>
+            <input type="checkbox" name="language" id="lang1" value="english">English
+            <input type="checkbox" name="language" id="lang1" value="hindi">Hindi
+            <input type="checkbox" name="language" id="lang1" value="french">French
+            <input type="checkbox" name="language" id="lang1" value="german">German <br> <br>
+            <input type="checkbox" name="declaration" id="declaration"> I hereby declare that all the details filled above are true <br> <br>
+        </form>
+    </body>
+
+    </html>
